@@ -13,7 +13,7 @@ RUN pip install \
 WORKDIR root
 
 #RUN wget https://example/ml-100k.zip >/dev/null 2>&1 && \
-    unzip ml-100k.zip >/dev/null 2>&1
+#    unzip ml-100k.zip >/dev/null 2>&1
 
 COPY *.py ./
 
