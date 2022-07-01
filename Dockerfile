@@ -12,7 +12,7 @@ RUN pip install \
 
 WORKDIR root
 
-RUN wget https://files.grouplens.org/datasets/movielens/ml-100k.zip >/dev/null 2>&1 && \
+#RUN wget https://example/ml-100k.zip >/dev/null 2>&1 && \
     unzip ml-100k.zip >/dev/null 2>&1
 
 COPY *.py ./
